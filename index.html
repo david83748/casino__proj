@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/iconlogo.webp" type="image/x-icon">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="heading">Casino</h1>
+            <img class="header__img" src="./img/iconlogo.webp" alt="logo">
+        </header>
+        <section class="main">
+            <div class="information">
+                <div class="information__balans" id="balans">Ваш баланс: 1000$</div>
+                <div class="information__message" id="inf-message"></div>
+                <input type="text" id="infBet">
+            </div>
+            <button class="button" id="roll-button" onclick="clickButton()">Бросить кости</button>
+        </section>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/randomCude.js"></script>
+    <script src="./js/gameStrategy.js"></script>
+    <script src="./js/inf-message.js"></script>
+    <script src="./js/updating.js"></script>
+
+</body>
+
+</html>

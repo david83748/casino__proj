@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+main {
+  display: grid;
+  height: 90vh;
+  grid-template-rows: auto 1fr auto;
+  background-color: #c4c4c4;
+}
+section {
+  align-self: stretch;
+  align-self: center;
+}
+p {
+  font-size: 0.9em;
+}
+header {
+  font-size: 2em;
+  background-color: #3a3a3a;
+  color: #fff;
+  padding: 2em;
+}
+footer {
+  background-color: #3a3a3a;
+  padding: 40px 0;
+}
+h1 {
+  font-weight: normal;
+  margin: 0 0 40px 0;
+  font-size: 1em;
+}
+img {
+  object-fit: fill;
+  height: 150px;
+}
+
+input {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  padding: 15px 30px 15px 30px;
+  margin-bottom: 20px;
+}
+
+button {
+  /* padding: 20px 40px; */
+  width: 10%;
+}
